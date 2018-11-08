@@ -8,12 +8,18 @@ import { NavComponent } from './nav/nav.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule, MatGridListModule, MatCardModule, MatMenuModule } from '@angular/material';
 import { MyDashboardComponent } from './my-dashboard/my-dashboard.component';
+import { FirstPageComponent } from './first-page/first-page.component';
+import { SecondPageComponent } from './second-page/second-page.component';
+import { ThirdPageComponent } from './third-page/third-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
-    MyDashboardComponent
+    MyDashboardComponent,
+    FirstPageComponent,
+    SecondPageComponent,
+    ThirdPageComponent
   ],
   imports: [
     BrowserModule,
